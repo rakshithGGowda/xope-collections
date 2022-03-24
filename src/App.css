@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+.App {
+  font-family: 'Cinzel', serif;
+  background-color: #F2F4F7;
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+

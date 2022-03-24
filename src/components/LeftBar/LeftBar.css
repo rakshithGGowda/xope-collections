@@ -1,0 +1,32 @@
+.sidebar{
+    position: fixed;
+    display: grid;
+    height: 90vh;
+    text-align: right;
+    width: min-content;
+    font-size: clamp(0.7rem, 2.5vw, 1rem); 
+}
+
+.side-button-container{
+    margin: auto;
+    width: min-content;
+}
+
+
+.side-button{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.side-button:hover {
+    opacity: 0.6;
+    scale: 1.1;
+    transition: 0.3s ease;
+  }
