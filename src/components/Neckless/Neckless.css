@@ -1,4 +1,36 @@
-.container{
-    min-height: 100vh;
-    background-color: #FFFF;
-}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-wrapper {
+
+    width: 30vw;
+    height: 60vh;
+
+  }
+
+  .image{
+    width: 30vw;
+    height: 70vh;
+    background-image: url('../../../asset/Images/pexels-manjeet-singh-yadav-1162983.jpg');
+    background-size:     cover; 
+    background-repeat:   no-repeat;
+    background-position: center center;  
+  }
+
+  .title{
+      position: absolute;
+      z-index: 4;
+      font-size: 3.5vw;
+      font-weight: 200;
+      letter-spacing: 0.7vw;
+      margin-top: 45vh;
+      margin-left: 25vw;
+  }
