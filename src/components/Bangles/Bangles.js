@@ -1,8 +1,8 @@
 import React from 'react'
-import './Neckless.css'
+import './Bangles.css'
 import { MouseParallaxContainer, MouseParallaxChild } from "react-parallax-mouse";
 
-const Neckless = () => {
+const Bangles = () => {
 
 
     function parallax(event) {
@@ -17,13 +17,13 @@ const Neckless = () => {
 
 
     return(
-    <div className='container-neckless' >
+    <div className='container-bangles' >
       <MouseParallaxContainer resetOnLeave="true" >
-      <MouseParallaxChild className = "image-wrapper-neckless" factorX={0.2} factorY={0.3} >
-          <div className='image-neckless'></div>
+      <MouseParallaxChild className = "image-wrapper-bangles" factorX={0.2} factorY={0.3} >
+          <div className='image-bangles'></div>
         </MouseParallaxChild>
-          <MouseParallaxChild  className='title-neckless' factorX={0.1} factorY={0.4} >
-          <h2 >Neckless</h2>
+          <MouseParallaxChild  className='title-bangles' factorX={0.1} factorY={0.4} >
+          <h2 >Bangles</h2>
         </MouseParallaxChild>
         </MouseParallaxContainer>
     </div>
@@ -31,4 +31,5 @@ const Neckless = () => {
 }
 
 
-export default Neckless
+
+export default Bangles

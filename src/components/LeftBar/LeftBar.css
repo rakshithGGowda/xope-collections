@@ -1,5 +1,7 @@
 .sidebar{
+    z-index: 12;
     position: fixed;
+    margin-top: 10vh;
     display: grid;
     height: 90vh;
     text-align: right;

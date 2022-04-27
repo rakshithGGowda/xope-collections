@@ -1,0 +1,37 @@
+
+.container-earnings {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-wrapper-earnings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65vw;
+  height: 70vh;
+
+}
+
+.image-earnings{
+  width: 50%;
+  height: 75vh;
+  background-image: url('../../../asset/Images/Earnings.jpg');
+  background-size:     cover; 
+  background-repeat:   no-repeat;
+  background-position: center center;  
+}
+
+.title-earnings{
+    position: absolute;
+    top:50%;
+    left: 55%;
+    z-index: 3;
+    font-size: 2rem;
+    font-weight: 200;
+    letter-spacing: 0.7vw;
+}

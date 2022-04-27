@@ -1,6 +1,5 @@
 
-.container {
-    position: relative;
+.container-neckless {
     width: 100%;
     height: 100vh;
     overflow: hidden;
@@ -9,28 +8,30 @@
     align-items: center;
   }
 
-  .image-wrapper {
-
-    width: 30vw;
-    height: 60vh;
+  .image-wrapper-neckless {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65vw;
+    height: 70vh;
 
   }
 
-  .image{
-    width: 30vw;
-    height: 70vh;
-    background-image: url('../../../asset/Images/pexels-manjeet-singh-yadav-1162983.jpg');
+  .image-neckless{
+    width: 50%;
+    height: 75vh;
+    background-image: url('../../../asset/Images/Neckless.jpg');
     background-size:     cover; 
     background-repeat:   no-repeat;
     background-position: center center;  
   }
 
-  .title{
+  .title-neckless{
       position: absolute;
-      z-index: 4;
-      font-size: 3.5vw;
+      top:50%;
+      left: 55%;
+      z-index: 3;
+      font-size: 2rem;
       font-weight: 200;
       letter-spacing: 0.7vw;
-      margin-top: 45vh;
-      margin-left: 25vw;
   }
